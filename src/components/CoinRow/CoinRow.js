@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './CoinRow.css'
 const CoinRow = ({coin, index}) => {
     return (
-        <tr>
+        <tr className="tableRow">
             <td>{index}</td>
             <td>
                 <img className="img-fluid me-2" src={coin.image} alt={coin.id} style={{width:'3%'}} />

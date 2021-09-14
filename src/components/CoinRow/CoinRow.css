@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 900px){
+    .tableRow td{
+    font-size: 10px;
+}
+}
+
+@media screen and (max-width: 900px){
+    .tableRow td{
+    font-size: 7px;
+}
+}
+

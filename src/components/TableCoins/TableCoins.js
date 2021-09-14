@@ -1,5 +1,6 @@
 import React from 'react'
 import CoinRow from '../CoinRow/CoinRow'
+import './TableCoins.css'
 
 const titles = ['#', 'Coin','Price', 'Price Change', '24h Volume']
 const TableCoins = ({coins, search}) => {
